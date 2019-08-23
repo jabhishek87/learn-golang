@@ -38,17 +38,8 @@ func main() {
 	// That's why you need to call it here.
 	// It only calls `func main` automatically.
 
-	// -----
-
 	// Go supports Unicode characters in string literals
 	// And also in source-code: KÖSTEBEK!
-	//
 	// Because: Literal ~= Source Code
-
-	// EXERCISE: Remove the comments from below --> //
-	fmt.Println("Merhaba Köstebek!")
-
-	// Unnecessary note:
-	// "Merhaba Köstebek" means "Hello Gopher"
-	// in Turkish language
+	fmt.Println("Merhaba Köstebek means Hello Gopher in Turkish")
 }
