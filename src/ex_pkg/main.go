@@ -1,7 +1,12 @@
 package main
 
 // file scope
-import "fmt"
+import (
+	"fmt"
+
+	// Import package from local dir
+	"./mypkg"
+)
 
 // package scope
 // can directely call any function defined in same package in other files
@@ -12,4 +17,9 @@ func main() {
 	hey()
 	fmt.Println("Hello Gopher ! from main.go")
 	bye()
+
+	// call lib package
+	mypkg.Header()
+	mypkg.Footer()
+
 }
