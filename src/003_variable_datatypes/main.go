@@ -94,4 +94,14 @@ func varDeclaration() {
 func main() {
 	basicDatatypes()
 	varDeclaration()
+
+	fmt.Printf("%08b\n", 0)
+	fmt.Printf("%08b\n", 1)
+	fmt.Printf("%08b\n", 2)
+	fmt.Printf("%08b\n", 3)
+	fmt.Printf("%08b\n", 4)
+	fmt.Printf("%08b\n", 5)
+	fmt.Printf("%08b\n", 6)
+	fmt.Printf("%08b\n", 7)
+	fmt.Printf("%08b\n", 8)
 }
