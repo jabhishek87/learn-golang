@@ -8,6 +8,7 @@ import (
 
 
 func main() {
+	fmt.Println("Hello From ", runtime.GOOS)
 	fmt.Println("**********")
 	fmt.Println("Go Version is ", runtime.Version())
 	fmt.Println("**********")
