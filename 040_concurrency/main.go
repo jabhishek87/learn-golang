@@ -28,6 +28,12 @@ Concurrency
 		Actor model
 		Communicatting Seqential Process (CSP)
 
+	Explanaion
+	for example
+	go sub routines is managed services, wheres Threads are non managed services
+
+	https://www.geeksforgeeks.org/golang-goroutine-vs-thread/
+
 
 
 Parallelism
