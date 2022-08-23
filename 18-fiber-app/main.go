@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/gofiber/fiber/v2"
-	controller "github.com/jabhishek87/fiberapp/handler"
+	"github.com/jabhishek87/fiberapp/controller"
 	"github.com/jabhishek87/fiberapp/model"
 )
 
